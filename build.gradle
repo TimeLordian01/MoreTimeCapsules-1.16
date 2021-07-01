@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1+', changing: true
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
@@ -14,7 +14,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'idea'
 
-version = '1.4 - 1.16.5 Compatability'
+version = '1.5 - 1.16.5 Compatability'
 group = 'com.thevale.moretimecapsulesmod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'motimecapsmod'
 

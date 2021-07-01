@@ -1,50 +1,38 @@
 package com.thevale.moretimecapsulesmod;
 
 import com.thevale.moretimecapsulesmod.blocks.ValeBlocks;
-import com.thevale.moretimecapsulesmod.registry.ConsoleRegistry;
-import com.thevale.moretimecapsulesmod.registry.ExteriorRegistry;
+import com.thevale.moretimecapsulesmod.registry.ValeConsoleRegistry;
+import com.thevale.moretimecapsulesmod.registry.ValeExteriorRegistry;
 import com.thevale.moretimecapsulesmod.tileentities.ValeTiles;
 import net.minecraft.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.tardis.mod.registries.TardisRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.thevale.moretimecapsulesmod.proxy.ClientProxy;
-import com.thevale.moretimecapsulesmod.proxy.IProxy;
-import com.thevale.moretimecapsulesmod.proxy.ServerProxy;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Moretimecapsulesmod.MODID)
 public class Moretimecapsulesmod {
-    // Directly reference a log4j logger.
-    public static IProxy proxy = DistExecutor.safeRunForDist(()-> () -> new ClientProxy(), () -> () -> new ServerProxy());
-
     public static final Logger LOGGER = LogManager.getLogger();
-
     public static final String MODID = "moretimecapsulesmod";
-
     public Moretimecapsulesmod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-        MinecraftForge.EVENT_BUS.register(this);
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         ValeBlocks.BLOCKS.register(modBus);
-        ConsoleRegistry.CONSOLES.register(modBus);
+        ValeConsoleRegistry.CONSOLES.register(modBus);
         ValeTiles.TILES.register(modBus);
+        ValeExteriorRegistry.EXTERIORS.register(modBus);
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
+    private void doClientStuff(FMLClientSetupEvent event) {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
     }
