@@ -1,5 +1,5 @@
-package com.thevale.moretimecapsulesmod.client.models.interiordoors;// Made with Blockbench 3.7.5
-// Exported for Minecraft version 1.15
+package com.thevale.moretimecapsulesmod.client.models.interiordoors;// Made with Blockbench 3.9.0
+// Exported for Minecraft version 1.15 - 1.16 with MCP mappings
 // Paste this class into your mod and generate all required imports
 
 
@@ -19,12 +19,13 @@ import net.tardis.mod.helper.TardisHelper;
 import net.tardis.mod.misc.TexVariant;
 import net.tardis.mod.tileentities.ConsoleTile;
 
-public class WardrobeInteriorDoorModel extends EntityModel<Entity> implements IInteriorDoorRenderer {
+public class WardrobeInteriorDoor extends EntityModel<Entity> implements IInteriorDoorRenderer{
 	private final ModelRenderer LeftDoor;
 	private final ModelRenderer Walls;
 	private final ModelRenderer RightDoor;
+	private final ModelRenderer boti;
 
-	public WardrobeInteriorDoorModel() {
+	public WardrobeInteriorDoor() {
 		textureWidth = 128;
 		textureHeight = 128;
 
@@ -48,7 +49,6 @@ public class WardrobeInteriorDoorModel extends EntityModel<Entity> implements II
 		Walls.setTextureOffset(48, 117).addBox(-14.375F, 22.0F, -9.9375F, 1.0F, 1.0F, 1.0F, 0.01F, false);
 		Walls.setTextureOffset(0, 102).addBox(-14.75F, -2.0F, -10.0F, 1.0F, 25.0F, 1.0F, 0.0F, false);
 		Walls.setTextureOffset(57, 120).addBox(-14.5F, -2.25F, -9.875F, 14.0F, 2.0F, 1.0F, -0.1875F, false);
-		Walls.setTextureOffset(0, 0).addBox(-14.5F, -1.75F, -10.625F, 14.0F, 25.0F, 1.0F, -0.1875F, false);
 		Walls.setTextureOffset(57, 120).addBox(-14.5F, 22.25F, -9.875F, 14.0F, 2.0F, 1.0F, -0.1875F, false);
 
 		RightDoor = new ModelRenderer(this);
@@ -61,21 +61,15 @@ public class WardrobeInteriorDoorModel extends EntityModel<Entity> implements II
 		RightDoor.setTextureOffset(8, 105).addBox(-0.6484F, -10.1875F, -0.0234F, 1.0F, 22.0F, 1.0F, 0.001F, false);
 		RightDoor.setTextureOffset(66, 119).addBox(-6.0234F, -1.6875F, -0.5234F, 1.0F, 2.0F, 2.0F, -0.375F, false);
 		RightDoor.setTextureOffset(30, 105).addBox(-6.4609F, -10.6875F, -0.0234F, 6.0F, 22.0F, 1.0F, -0.125F, false);
+
+		boti = new ModelRenderer(this);
+		boti.setRotationPoint(0.0F, 24.0F, 0.0F);
+		boti.setTextureOffset(0, 0).addBox(-7.0F, -24.75F, -8.625F, 14.0F, 25.0F, 1.0F, -0.1875F, false);
 	}
 
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
-		//previously the render function, render code was moved to a method below
-	}
+	public void setRotationAngles(Entity entityIn, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 
-	@Override
-	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha){
-	}
-
-	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
-		modelRenderer.rotateAngleX = x;
-		modelRenderer.rotateAngleY = y;
-		modelRenderer.rotateAngleZ = z;
 	}
 
 	@Override
@@ -116,5 +110,10 @@ public class WardrobeInteriorDoorModel extends EntityModel<Entity> implements II
 		}
 
 		return WardrobeRender.TEXTURE;
+	}
+
+	@Override
+	public void render(MatrixStack matrixStackIn, IVertexBuilder bufferIn, int packedLightIn, int packedOverlayIn, float red, float green, float blue, float alpha) {
+
 	}
 }

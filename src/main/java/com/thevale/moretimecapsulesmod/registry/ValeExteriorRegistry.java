@@ -12,7 +12,7 @@ import net.tardis.mod.misc.DoorSounds;
 import net.tardis.mod.registries.ExteriorRegistry;
 
 public class ValeExteriorRegistry {
-    public static final DeferredRegister<AbstractExterior> EXTERIORS = DeferredRegister.create(ExteriorRegistry.EXTERIOR_REGISTRY.get(), Moretimecapsulesmod.MODID);
+    public static final DeferredRegister<AbstractExterior> EXTERIORS = DeferredRegister.create(AbstractExterior.class, Moretimecapsulesmod.MODID);
 
 
     public static final RegistryObject<AbstractExterior> FIVEEXTERIOR = EXTERIORS.register("2005exterior", () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_canon05.get().getDefaultState(), true, EnumDoorTypes.CANON05, DoorSounds.WOOD,new ResourceLocation(Moretimecapsulesmod.MODID, "textures/gui/exteriors/fiveexterior.png")));

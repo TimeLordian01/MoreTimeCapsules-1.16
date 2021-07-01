@@ -22,8 +22,7 @@ public class Moretimecapsulesmod {
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MODID = "moretimecapsulesmod";
     public Moretimecapsulesmod() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
-        // Register ourselves for server and other game events we are interested in
+               // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         ValeBlocks.BLOCKS.register(modBus);
@@ -32,10 +31,6 @@ public class Moretimecapsulesmod {
         ValeExteriorRegistry.EXTERIORS.register(modBus);
     }
 
-    private void doClientStuff(FMLClientSetupEvent event) {
-        // do something that can only be done on the client
-        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
-    }
 
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

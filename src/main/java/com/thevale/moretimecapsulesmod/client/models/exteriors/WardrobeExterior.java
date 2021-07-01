@@ -1,10 +1,9 @@
-package com.thevale.moretimecapsulesmod.client.models.exteriors;// Made with Blockbench 3.7.5
-// Exported for Minecraft version 1.15
+package com.thevale.moretimecapsulesmod.client.models.exteriors;// Made with Blockbench 3.9.0
+// Exported for Minecraft version 1.15 - 1.16 with MCP mappings
 // Paste this class into your mod and generate all required imports
 
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
 import net.minecraft.client.renderer.model.ModelRenderer;
@@ -41,10 +40,10 @@ public class WardrobeExterior extends ExteriorModel {
 		Walls.setTextureOffset(46, 120).addBox(-1.5F, 21.5F, -6.5F, 2.0F, 2.0F, 2.0F, -0.5F, false);
 		Walls.setTextureOffset(46, 120).addBox(-1.5F, 21.5F, 0.5F, 2.0F, 2.0F, 2.0F, -0.5F, false);
 		Walls.setTextureOffset(46, 116).addBox(-16.0F, 20.625F, -7.0F, 17.0F, 2.0F, 10.0F, -0.5F, false);
-		Walls.setTextureOffset(46, 105).addBox(-16.0F, -4.0F, -7.0F, 17.0F, 2.0F, 10.0F, -0.5F, false);
+		Walls.setTextureOffset(46, 105).addBox(-16.0F, -3.875F, -7.0F, 17.0F, 2.0F, 10.0F, -0.5F, false);
 		Walls.setTextureOffset(48, 86).addBox(-13.5F, -3.875F, -6.0F, 12.0F, 1.0F, 8.0F, 0.0F, false);
-		Walls.setTextureOffset(47, 95).addBox(-15.5F, 20.4375F, -6.5F, 16.0F, 2.0F, 9.0F, -0.5F, false);
-		Walls.setTextureOffset(48, 106).addBox(-15.5F, -3.375F, -6.5F, 16.0F, 2.0F, 9.0F, -0.5F, false);
+		Walls.setTextureOffset(48, 106).addBox(-15.5F, 20.4375F, -6.5F, 16.0F, 2.0F, 9.0F, -0.5F, false);
+		Walls.setTextureOffset(47, 105).addBox(-15.5F, -3.375F, -6.5F, 16.0F, 2.0F, 9.0F, -0.5F, false);
 		Walls.setTextureOffset(0, 102).addBox(-1.25F, -3.375F, -5.75F, 1.0F, 25.0F, 1.0F, 0.0F, false);
 		Walls.setTextureOffset(48, 117).addBox(-1.625F, -2.375F, -5.6875F, 1.0F, 1.0F, 1.0F, 0.01F, false);
 		Walls.setTextureOffset(48, 117).addBox(-1.625F, 20.625F, -5.6875F, 1.0F, 1.0F, 1.0F, 0.01F, false);
@@ -82,12 +81,13 @@ public class WardrobeExterior extends ExteriorModel {
 		RightDoor.setTextureOffset(30, 105).addBox(-6.4609F, -12.0625F, -0.0234F, 6.0F, 22.0F, 1.0F, -0.125F, false);
 
 		boti = new ModelRenderer(this);
-		boti.setRotationPoint(0.0F, 24.0F, 0.0F);
-		boti.setTextureOffset(0, 0).addBox(-7.0F, -25.0F, -3.0F, 13.0F, 23.0F, 1.0F, 0.0F, false);
+		boti.setRotationPoint(6.0F, 21.625F, -3.0F);
+		boti.setTextureOffset(0, 0).addBox(-12.5F, -23.0F, 0.0F, 13.0F, 23.0F, 1.0F, 0.0F, false);
 	}
 
 	@Override
 	public void render(ExteriorTile tile, float v, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float v1) {
+		matrixStack.push();
 		EnumDoorState state = tile.getOpen();
 		matrixStack.translate(0.0D, -0.75D, 0.0D);
 		matrixStack.scale(1.5F, 1.5F, 1.5F);

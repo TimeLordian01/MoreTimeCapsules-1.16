@@ -4,29 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="broke">
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MTCM-1.16-Beta.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod$RegistryEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod$RegistryEvents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/proxy/ClientProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/proxy/IProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/proxy/ServerProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/registry/ConsoleRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/registry/ExteriorRegistry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/registry/ModelRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoorModel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoorModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-01-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-01-1.log.gz" afterDir="false" />
@@ -40,13 +33,11 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/proxy/ClientProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/proxy/IProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/proxy/ServerProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ConsoleRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ExteriorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ModelRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +109,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haydn\Desktop\MoDDING\MoreTimeCapsulesMod-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\interiordoors" />
+      <recent name="C:\Users\haydn\Desktop\MoDDING\MoreTimeCapsulesMod-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\exteriors" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.runClient">
     <configuration name="MoreTimeCapsulesMod-1.16 [buildEnvironment]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -236,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625111379094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="broke">
+      <created>1625171027232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625171027232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="broke" />
+    <option name="LAST_COMMIT_MESSAGE" value="broke" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

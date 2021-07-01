@@ -42,7 +42,7 @@ public class ValeModelRegistry {
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_ptored.get(), PtoredRender::new);
         EnumDoorTypes.PTORED.setInteriorDoorModel(new Ptoredinteriordoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_wardrobe.get(), WardrobeRender::new);
-        EnumDoorTypes.WARDROBE.setInteriorDoorModel(new WardrobeInteriorDoorModel());
+        EnumDoorTypes.WARDROBE.setInteriorDoorModel(new WardrobeInteriorDoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_organ.get(), OrganRender::new);
         EnumDoorTypes.ORGAN.setInteriorDoorModel(new OrganInnerDoors());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_canon05.get(), FiveRender::new);
