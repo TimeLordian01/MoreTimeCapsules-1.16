@@ -13,13 +13,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod$RegistryEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod$RegistryEvents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoorModel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoorModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-01-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-01-1.log.gz" afterDir="false" />
@@ -32,12 +25,9 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/texturevariants/TextureVariants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/texturevariants/TextureVariants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625171027232</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="broke">
+      <created>1625174043152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625174043152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

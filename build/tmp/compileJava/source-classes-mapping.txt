@@ -36,9 +36,8 @@ com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java
  com.thevale.moretimecapsulesmod.client.renders.exteriors.WardrobeRender
 com/thevale/moretimecapsulesmod/tileentities/consoles/SmithConsoleTile.java
  com.thevale.moretimecapsulesmod.tileentities.consoles.SmithConsoleTile
-com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java
- com.thevale.moretimecapsulesmod.Moretimecapsulesmod
- com.thevale.moretimecapsulesmod.Moretimecapsulesmod$RegistryEvents
+com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java
+ com.thevale.moretimecapsulesmod.registry.ValeModelRegistry
 com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.java
  com.thevale.moretimecapsulesmod.client.models.interiordoors.OrganInnerDoors
  com.thevale.moretimecapsulesmod.client.models.interiordoors.OrganInnerDoors$1
@@ -49,8 +48,9 @@ com/thevale/moretimecapsulesmod/blocks/VConsoleBlock.java
  com.thevale.moretimecapsulesmod.blocks.VConsoleBlock
 com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.java
  com.thevale.moretimecapsulesmod.client.renders.exteriors.OrganRender
-com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java
- com.thevale.moretimecapsulesmod.registry.ValeExteriorRegistry
+com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoor.java
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.WardrobeInteriorDoor
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.WardrobeInteriorDoor$1
 com/thevale/moretimecapsulesmod/tileentities/PtoredTile.java
  com.thevale.moretimecapsulesmod.tileentities.PtoredTile
  com.thevale.moretimecapsulesmod.tileentities.PtoredTile$1
@@ -96,8 +96,8 @@ com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java
  com.thevale.moretimecapsulesmod.registry.ValeConsoleRegistry
 com/thevale/moretimecapsulesmod/client/renders/consoles/CoralConsoleRender.java
  com.thevale.moretimecapsulesmod.client.renders.consoles.CoralConsoleRender
-com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoor.java
- com.thevale.moretimecapsulesmod.client.models.interiordoors.WardrobeInteriorDoor
- com.thevale.moretimecapsulesmod.client.models.interiordoors.WardrobeInteriorDoor$1
-com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java
- com.thevale.moretimecapsulesmod.registry.ValeModelRegistry
+com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java
+ com.thevale.moretimecapsulesmod.Moretimecapsulesmod
+ com.thevale.moretimecapsulesmod.Moretimecapsulesmod$RegistryEvents
+com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java
+ com.thevale.moretimecapsulesmod.registry.ValeExteriorRegistry
