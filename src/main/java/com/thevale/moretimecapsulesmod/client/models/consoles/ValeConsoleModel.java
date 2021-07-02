@@ -1486,7 +1486,7 @@ public class ValeConsoleModel extends EntityModel<Entity> implements TileModel<V
 
 
 		this.TimeRotor.rotateAngleY = (float)Math.toRadians((double)(tile.flightTicks * 2 % 360));
-		this.TimeRotor.rotationPointY = - (float)Math.cos((double)tile.flightTicks * 0.1D) * 0.05F;
+		this.TimeRotor.rotationPointY = - (float)Math.cos((double)tile.flightTicks * 0.1D) * 3F;
 
 		tile.getControl(RandomiserControl.class).ifPresent(randomiserControl -> {
 			float randomOff = randomiserControl.getAnimationTicks() == 0 ? 0 : 0.006F;

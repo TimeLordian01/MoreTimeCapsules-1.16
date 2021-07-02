@@ -1,0 +1,72 @@
+
+["World Generation"]
+	#This value is divided by 1 to form the final probability
+	#Example: Value = 2, Spawn Chance = 1/2
+	cinnabarOreSpawnChance = 2
+	#This value is divided by 100 to form the final probability
+	#Example: Value = 1, Spawn Chance = 1/100
+	xionCrystalSpawnChance = 30
+	#This value is divided by 100 to form the final probability
+	#Example: Value = 1, Spawn Chance = 1/100
+	tardisSpawnProbability = 1
+
+	["World Generation"."Space Station"]
+		#The chunk radius around a potential spawn location in which this structure can spawn.
+		#Structure Spacing value must be smaller than Structure Seperation
+		#This option does not allow decimal points
+		spaceStationMissionSpacing = 20
+		#This value is divided by 100 to form the final probability
+		#Example: Value = 1, Spawn Chance = 1/100
+		spaceStationMissionSpawnChance = 5
+		#The number of chunks that can seperate two instances of this structure
+		#This option does not allow decimal points
+		spaceStationMissionSeperation = 60
+
+	["World Generation"."Moon Lander"]
+		#The chunk radius around a potential spawn location in which this structure can spawn.
+		#Structure Spacing value must be smaller than Structure Seperation
+		#This option does not allow decimal points
+		moonLanderSpacing = 20
+		#This value is divided by 100 to form the final probability
+		#Example: Value = 1, Spawn Chance = 1/100
+		moonLanderSpawnChance = 15
+		#The number of chunks that can seperate two instances of this structure
+		#This option does not allow decimal points
+		moonLanderSeperation = 50
+
+	["World Generation"."Abandoned Spaceship"]
+		#This value is divided by 100 to form the final probability
+		#Example: Value = 1, Spawn Chance = 1/100
+		abandonedSpaceshipSpawnChance = 8
+		#The chunk radius around a potential spawn location in which this structure can spawn.
+		#Structure Spacing value must be smaller than Structure Seperation
+		#This option does not allow decimal points
+		abandonedSpaceshipSpacing = 20
+		#The number of chunks that can seperate two instances of this structure
+		#This option does not allow decimal points
+		abandonedSpaceshipSeperation = 100
+
+	["World Generation"."Crashed Structure"]
+		#This value is divided by 100 to form the final probability
+		#Example: Value = 1, Spawn Chance = 1/100
+		crashedStructureSpawnChance = 10
+		#The chunk radius around a potential spawn location in which this structure can spawn.
+		#Structure Spacing value must be smaller than Structure Seperation
+		#This option does not allow decimal points
+		crashedStructureSpacing = 60
+		#The number of chunks that can seperate two instances of this structure
+		#This option does not allow decimal points
+		crashedStructureSeperation = 100
+
+	["World Generation"."Dalek Saucer"]
+		#This value is divided by 100 to form the final probability
+		#Example: Value = 1, Spawn Chance = 1/100
+		dalekSaucerSpawnChance = 3
+		#The chunk radius around a potential spawn location in which this structure can spawn.
+		#Structure Spacing value must be smaller than Structure Seperation
+		#This option does not allow decimal points
+		dalekSaucerSpacing = 50
+		#The number of chunks that can seperate two instances of this structure
+		#This option does not allow decimal points
+		dalekSaucerSeperation = 200
+

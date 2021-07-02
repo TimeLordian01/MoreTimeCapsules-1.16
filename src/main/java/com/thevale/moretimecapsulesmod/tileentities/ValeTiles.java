@@ -24,6 +24,7 @@ public class ValeTiles {
     public static RegistryObject<TileEntityType<PtoredTile>> exterior_ptored = TILES.register("exterior_ptored", () -> registerTiles(PtoredTile::new, ValeBlocks.exterior_ptored.get()));
     public static RegistryObject<TileEntityType<ShalkaTile>> exterior_shalka = TILES.register("exterior_shalka", () -> registerTiles(ShalkaTile::new, ValeBlocks.exterior_shalka.get()));
     public static RegistryObject<TileEntityType<WardrobeTile>> exterior_wardrobe = TILES.register("exterior_wardrobe", () -> registerTiles(WardrobeTile::new, ValeBlocks.exterior_wardrobe.get()));
+    public static RegistryObject<TileEntityType<TTCTile>> exterior_tt_capsule = TILES.register("exterior_tt_capsule", () -> registerTiles(TTCTile::new, ValeBlocks.exterior_tt_capsule.get()));
     //Consoles
     public static RegistryObject<TileEntityType<ValeConsoleTile>> console_vale = TILES.register("console_vale", () -> registerTiles(ValeConsoleTile::new, ValeBlocks.console_vale.get()));
     public static RegistryObject<TileEntityType<CoralConsoleTile>> console_coral2 = TILES.register("console_coral2", () -> registerTiles(CoralConsoleTile::new, ValeBlocks.console_coral2.get()));
