@@ -30,7 +30,7 @@ SHALKA(state -> {
     TT_CAPSULE(state -> {
         switch(state) {
             case CLOSED: return 0.0D;
-            case ONE: return -10101010.0D;
+            case ONE: return -45.0D;
             case BOTH : return -80.0D;
             default:return 0.0;
         }
@@ -42,15 +42,14 @@ SHALKA(state -> {
                 case BOTH : return 100.0;
                 default:return 0.0;
             }
-        }, EnumDoorState.CLOSED, EnumDoorState.ONE, EnumDoorState.BOTH),
+        }, EnumDoorState.CLOSED, EnumDoorState.BOTH),
        ELEVATOR(state -> {
             switch(state) {
             case CLOSED: return 0.0D;
-                case ONE: return -15.0D;
                 case BOTH : return -15.0D;
                 default:return 0.0;
             }
-        }, EnumDoorState.CLOSED, EnumDoorState.ONE, EnumDoorState.BOTH),
+        }, EnumDoorState.CLOSED, EnumDoorState.BOTH),
         ORGAN(state -> {
             switch(state) {
             case CLOSED: return 0.0D;

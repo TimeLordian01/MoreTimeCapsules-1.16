@@ -3,6 +3,7 @@ package com.thevale.moretimecapsulesmod.client.models.interiordoors;// Made with
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 
+import com.thevale.moretimecapsulesmod.Moretimecapsulesmod;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
@@ -21,7 +22,7 @@ import net.tardis.mod.misc.IDoorType.EnumDoorType;
 
 
 public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoorRenderer {
-	public static final ResourceLocation TEXTURE = new ResourceLocation(Tardis.MODID, "textures/interiordoor/tt_capsule.png");
+	public static final ResourceLocation TEXTURE = new ResourceLocation(Moretimecapsulesmod.MODID, "textures/interiordoor/tt_capsule.png");
 
 	private final ModelRenderer boti;
 	private final ModelRenderer bb_main;

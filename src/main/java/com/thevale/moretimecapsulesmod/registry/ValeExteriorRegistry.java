@@ -21,7 +21,7 @@ public class ValeExteriorRegistry {
     public static final RegistryObject<AbstractExterior> PTORED = EXTERIORS.register("policeboxred", () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_ptored.get().getDefaultState(), true, EnumDoorTypes.PTORED, DoorSounds.WOOD,new ResourceLocation(Moretimecapsulesmod.MODID, "textures/gui/exteriors/ptoredexterior.png")));
     public static final RegistryObject<AbstractExterior> SHALKA = EXTERIORS.register("shalka", () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_shalka.get().getDefaultState(), true, EnumDoorTypes.SHALKA, DoorSounds.WOOD,new ResourceLocation(Moretimecapsulesmod.MODID, "textures/gui/exteriors/shalkaexterior.png")));
     public static final RegistryObject<AbstractExterior> ORGAN = EXTERIORS.register("organ", () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_organ.get().getDefaultState(), true, EnumDoorTypes.ORGAN, DoorSounds.WOOD,new ResourceLocation(Moretimecapsulesmod.MODID, "textures/gui/exteriors/organexterior.png")));
-    public static final RegistryObject<AbstractExterior> TT_CAPSULE = EXTERIORS.register("tt_capsule", () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_tt_capsule.get().getDefaultState(), true, EnumDoorTypes.TT_CAPSULE, DoorSounds.WOOD,new ResourceLocation(Moretimecapsulesmod.MODID, "textures/gui/exteriors/tt_capsule_exterior.png")));
+    public static final RegistryObject<AbstractExterior> TT_CAPSULE = EXTERIORS.register("tt_capsule", () -> new TwoBlockBasicExterior(() -> ValeBlocks.exterior_tt_capsule.get().getDefaultState(), true, EnumDoorTypes.TT_CAPSULE, DoorSounds.BASE,new ResourceLocation(Moretimecapsulesmod.MODID, "textures/gui/exteriors/blueprint_capsule.png")));
 
 
 

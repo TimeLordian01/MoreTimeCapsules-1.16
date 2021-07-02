@@ -280,18 +280,16 @@ public class tt_capsule extends ExteriorModel {
 		switch(state) {
 			case ONE:
 				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.ONE));
-				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.CLOSED));
 				break;
 			case BOTH:
-				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.ONE));
 				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.BOTH));
 				break;
 			case CLOSED:
 				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.CLOSED));
-				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.CLOSED));
 		}
-		base.render(matrixStack, buffer, packedLight, packedOverlay);
-		door.render(matrixStack, buffer, packedLight, packedOverlay);
+		this.base.render(matrixStack, buffer, packedLight, packedOverlay);
+		this.door.render(matrixStack, buffer, packedLight, packedOverlay);
+		this.boti.render(matrixStack, buffer, packedLight, packedOverlay);
 		matrixStack.pop();
 	}
 

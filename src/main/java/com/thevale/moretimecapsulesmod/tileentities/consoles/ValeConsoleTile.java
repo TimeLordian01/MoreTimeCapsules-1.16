@@ -1,11 +1,13 @@
 package com.thevale.moretimecapsulesmod.tileentities.consoles;
 
+import com.thevale.moretimecapsulesmod.texturevariants.ConsoleTextureVariants;
 import com.thevale.moretimecapsulesmod.tileentities.ValeTiles;
 import net.minecraft.entity.EntitySize;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.vector.Vector3d;
 import net.tardis.mod.controls.*;
+import net.tardis.mod.registries.ControlRegistry;
 import net.tardis.mod.tileentities.ConsoleTile;
 import net.tardis.mod.tileentities.console.misc.ControlOverride;
 
@@ -20,8 +22,9 @@ public class ValeConsoleTile extends ConsoleTile {
     }
 
     public ValeConsoleTile() {
-        this(ValeTiles.console_vale.get());
-  }
+        super(ValeTiles.console_vale.get());
+        this.variants = ConsoleTextureVariants.VALE;
+    }
 
     public ValeConsoleTile(TileEntityType<?> type) {
         super(type);
