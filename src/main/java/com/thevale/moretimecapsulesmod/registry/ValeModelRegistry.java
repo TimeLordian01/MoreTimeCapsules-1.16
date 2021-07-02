@@ -47,7 +47,8 @@ public class ValeModelRegistry {
         EnumDoorTypes.ORGAN.setInteriorDoorModel(new OrganInnerDoors());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_canon05.get(), FiveRender::new);
         EnumDoorTypes.CANON05.setInteriorDoorModel(new FiveInteriorDoor());
-
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_tt_capsule.get(), TTCRender::new);
+        EnumDoorTypes.TT_CAPSULE.setInteriorDoorModel(new TTCInteriorDoor());
         //Consoles
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_vale.get(), ValeConsoleRender::new);
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_coral2.get(), CoralConsoleRender::new);

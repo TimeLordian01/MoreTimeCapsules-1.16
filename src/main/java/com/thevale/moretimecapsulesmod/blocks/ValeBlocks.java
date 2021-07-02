@@ -24,6 +24,7 @@ public class ValeBlocks {
     public static RegistryObject<Block> exterior_wardrobe = register("exterior_wardrobe", () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_organ = register("exterior_organ", () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_canon05 = register("exterior_canon05", () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_tt_capsule = register("exterior_tt_capsule", () -> setUpBlock(new ExteriorBlock()), false);
 
     //Consoles
     public static RegistryObject<Block> console_vale = register("console_vale", () -> setUpBlock(new VConsoleBlock()), false);
