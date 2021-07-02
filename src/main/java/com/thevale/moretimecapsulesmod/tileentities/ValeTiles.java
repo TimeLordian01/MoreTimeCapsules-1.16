@@ -5,7 +5,6 @@ import com.thevale.moretimecapsulesmod.Moretimecapsulesmod;
 import com.thevale.moretimecapsulesmod.blocks.ValeBlocks;
 import com.thevale.moretimecapsulesmod.tileentities.consoles.CoralConsoleTile;
 import com.thevale.moretimecapsulesmod.tileentities.consoles.SmithConsoleTile;
-import com.thevale.moretimecapsulesmod.tileentities.consoles.ValeConsoleTile;
 import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;

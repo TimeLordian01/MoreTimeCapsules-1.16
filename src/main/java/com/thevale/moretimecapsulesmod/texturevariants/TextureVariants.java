@@ -17,4 +17,8 @@ public class TextureVariants {
             new TexVariant(new ResourceLocation(Moretimecapsulesmod.MODID,"textures/exteriors/wardrobe_spruce_variant.png"), "wardrobe.spruce"),
             new TexVariant(new ResourceLocation(Moretimecapsulesmod.MODID,"textures/exteriors/wardrobe_warped_variant.png"), "wardrobe.warped")
     };
+    public static final TexVariant[] VALE = {
+            new TexVariant(new ResourceLocation(Moretimecapsulesmod.MODID,"textures/consoles/valeconsole.png"), "tardis.common.normal"),
+            new TexVariant(new ResourceLocation(Moretimecapsulesmod.MODID,"textures/consoles/valeconsole2.png"), "vale.purple"),
+      };
 }

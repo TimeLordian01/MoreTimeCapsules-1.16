@@ -3052,7 +3052,31 @@ public class SmithConsole extends EntityModel<Entity> implements TileModel<Smith
 		tile.getControl(ZControl.class);
 		//this.z.offsetY = z.getAnimationTicks() == 0 ? 0 : 0.006F;
 
-		EntireModel.render(matrixStack, iVertexBuilder, i, i1);
+		tile.getControl(LandingTypeControl.class).ifPresent(landingTypeControl -> {
+			this.Moving.rotationPointY = - 0.275f + (float)Math.cos((double)tile.flightTicks * 0.1D) * 6F;
+		});
+
+
+
+		matrixStack.push();
+		matrixStack.translate(0.09,1.65,-0.075);
+		matrixStack.rotate(Vector3f.YP.rotation(-0.5f));
+		Moving.render(matrixStack, iVertexBuilder, i, i1);
+		MonitorRotation.render(matrixStack, iVertexBuilder, i, i1);
+		MonitorRing.render(matrixStack, iVertexBuilder, i, i1);
+		ControlSet1.render(matrixStack, iVertexBuilder, i, i1);
+		ControlSet2.render(matrixStack, iVertexBuilder, i, i1);
+		ControlSet3.render(matrixStack, iVertexBuilder, i, i1);
+		ControlSet4.render(matrixStack, iVertexBuilder, i, i1);
+		ControlSet5.render(matrixStack, iVertexBuilder, i, i1);
+		ControlSet6.render(matrixStack, iVertexBuilder, i, i1);
+		ControlsBetweenPanels.render(matrixStack, iVertexBuilder, i, i1);
+		Stationary.render(matrixStack, iVertexBuilder, i, i1);
+		TimeRotorShell.render(matrixStack, iVertexBuilder, i, i1);
+		Console.render(matrixStack, iVertexBuilder, i, i1);
+		matrixStack.pop();
+
+
 
 		matrixStack.push();
 
