@@ -1,6 +1,6 @@
-com/thevale/moretimecapsulesmod/tileentities/TTCTile.java
- com.thevale.moretimecapsulesmod.tileentities.TTCTile
- com.thevale.moretimecapsulesmod.tileentities.TTCTile$1
+com/thevale/moretimecapsulesmod/client/models/exteriors/FiveExterior.java
+ com.thevale.moretimecapsulesmod.client.models.exteriors.FiveExterior
+ com.thevale.moretimecapsulesmod.client.models.exteriors.FiveExterior$1
 com/thevale/moretimecapsulesmod/client/models/consoles/SmithConsole.java
  com.thevale.moretimecapsulesmod.client.models.consoles.SmithConsole
 com/thevale/moretimecapsulesmod/consoles/VConsoles.java
@@ -9,77 +9,11 @@ com/thevale/moretimecapsulesmod/client/renders/exteriors/FiveRender.java
  com.thevale.moretimecapsulesmod.client.renders.exteriors.FiveRender
 com/thevale/moretimecapsulesmod/texturevariants/TextureVariants.java
  com.thevale.moretimecapsulesmod.texturevariants.TextureVariants
-com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.java
- com.thevale.moretimecapsulesmod.client.models.interiordoors.OrganInnerDoors
- com.thevale.moretimecapsulesmod.client.models.interiordoors.OrganInnerDoors$1
-com/thevale/moretimecapsulesmod/tileentities/PtoredTile.java
- com.thevale.moretimecapsulesmod.tileentities.PtoredTile
- com.thevale.moretimecapsulesmod.tileentities.PtoredTile$1
-com/thevale/moretimecapsulesmod/client/models/exteriors/tt_capsule.java
- com.thevale.moretimecapsulesmod.client.models.exteriors.tt_capsule
- com.thevale.moretimecapsulesmod.client.models.exteriors.tt_capsule$1
-com/thevale/moretimecapsulesmod/tileentities/OrganTile.java
- com.thevale.moretimecapsulesmod.tileentities.OrganTile
- com.thevale.moretimecapsulesmod.tileentities.OrganTile$1
-com/thevale/moretimecapsulesmod/tileentities/consoles/CoralConsoleTile.java
- com.thevale.moretimecapsulesmod.tileentities.consoles.CoralConsoleTile
-com/thevale/moretimecapsulesmod/tileentities/ShalkaTile.java
- com.thevale.moretimecapsulesmod.tileentities.ShalkaTile
- com.thevale.moretimecapsulesmod.tileentities.ShalkaTile$1
-com/thevale/moretimecapsulesmod/tileentities/WardrobeTile.java
- com.thevale.moretimecapsulesmod.tileentities.WardrobeTile
- com.thevale.moretimecapsulesmod.tileentities.WardrobeTile$1
-com/thevale/moretimecapsulesmod/client/renders/consoles/CoralConsoleRender.java
- com.thevale.moretimecapsulesmod.client.renders.consoles.CoralConsoleRender
-com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.java
- com.thevale.moretimecapsulesmod.client.models.exteriors.WardrobeExterior
- com.thevale.moretimecapsulesmod.client.models.exteriors.WardrobeExterior$1
-com/thevale/moretimecapsulesmod/tileentities/consoles/SmithConsoleTile.java
- com.thevale.moretimecapsulesmod.tileentities.consoles.SmithConsoleTile
-com/thevale/moretimecapsulesmod/client/guis/monitors/ValeMonitorScreen.java
- com.thevale.moretimecapsulesmod.client.guis.monitors.ValeMonitorScreen
-com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java
- com.thevale.moretimecapsulesmod.registry.ValeExteriorRegistry
-com/thevale/moretimecapsulesmod/blocks/VConsoleBlock.java
- com.thevale.moretimecapsulesmod.blocks.VConsoleBlock
-com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java
- com.thevale.moretimecapsulesmod.client.renders.exteriors.WardrobeRender
-com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.java
- com.thevale.moretimecapsulesmod.client.renders.exteriors.OrganRender
-com/thevale/moretimecapsulesmod/client/guis/monitors/CoralMonitorScreen.java
- com.thevale.moretimecapsulesmod.client.guis.monitors.CoralMonitorScreen
-com/thevale/moretimecapsulesmod/client/renders/exteriors/ShalkaRender.java
- com.thevale.moretimecapsulesmod.client.renders.exteriors.ShalkaRender
-com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor.java
- com.thevale.moretimecapsulesmod.client.models.interiordoors.Ptoredinteriordoor
- com.thevale.moretimecapsulesmod.client.models.interiordoors.Ptoredinteriordoor$1
+com/thevale/moretimecapsulesmod/texturevariants/ConsoleTextureVariants.java
+ com.thevale.moretimecapsulesmod.texturevariants.ConsoleTextureVariants
 com/thevale/moretimecapsulesmod/tileentities/FiveTile.java
  com.thevale.moretimecapsulesmod.tileentities.FiveTile
  com.thevale.moretimecapsulesmod.tileentities.FiveTile$1
-com/thevale/moretimecapsulesmod/client/renders/consoles/SmithConsoleRender.java
- com.thevale.moretimecapsulesmod.client.renders.consoles.SmithConsoleRender
-com/thevale/moretimecapsulesmod/client/guis/monitors/SmithMonitorScreen.java
- com.thevale.moretimecapsulesmod.client.guis.monitors.SmithMonitorScreen
-com/thevale/moretimecapsulesmod/items/ValeItems.java
- com.thevale.moretimecapsulesmod.items.ValeItems
-com/thevale/moretimecapsulesmod/client/renders/exteriors/PtoredRender.java
- com.thevale.moretimecapsulesmod.client.renders.exteriors.PtoredRender
-com/thevale/moretimecapsulesmod/client/models/consoles/CoralConsole.java
- com.thevale.moretimecapsulesmod.client.models.consoles.CoralConsole
-com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java
- com.thevale.moretimecapsulesmod.registry.ValeModelRegistry
-com/thevale/moretimecapsulesmod/blocks/ValeBlocks.java
- com.thevale.moretimecapsulesmod.blocks.ValeBlocks
-com/thevale/moretimecapsulesmod/client/models/interiordoors/TTCInteriorDoor.java
- com.thevale.moretimecapsulesmod.client.models.interiordoors.TTCInteriorDoor
-com/thevale/moretimecapsulesmod/client/models/exteriors/FiveExterior.java
- com.thevale.moretimecapsulesmod.client.models.exteriors.FiveExterior
- com.thevale.moretimecapsulesmod.client.models.exteriors.FiveExterior$1
-com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior.java
- com.thevale.moretimecapsulesmod.client.models.exteriors.OrganExterior
- com.thevale.moretimecapsulesmod.client.models.exteriors.OrganExterior$1
-com/thevale/moretimecapsulesmod/client/renders/exteriors/TTCRender.java
- com.thevale.moretimecapsulesmod.client.renders.exteriors.TTCRender
 com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed.java
  com.thevale.moretimecapsulesmod.client.models.exteriors.PTORed
  com.thevale.moretimecapsulesmod.client.models.exteriors.PTORed$1
@@ -89,27 +23,91 @@ com/thevale/moretimecapsulesmod/util/EnumDoorTypes.java
 com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor.java
  com.thevale.moretimecapsulesmod.client.models.interiordoors.ShalkaInteriorDoor
  com.thevale.moretimecapsulesmod.client.models.interiordoors.ShalkaInteriorDoor$1
+com/thevale/moretimecapsulesmod/client/models/consoles/ValeConsoleModel.java
+ com.thevale.moretimecapsulesmod.client.models.consoles.ValeConsoleModel
 com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor.java
  com.thevale.moretimecapsulesmod.client.models.interiordoors.FiveInteriorDoor
  com.thevale.moretimecapsulesmod.client.models.interiordoors.FiveInteriorDoor$1
 com/thevale/moretimecapsulesmod/client/models/exteriors/shalka.java
  com.thevale.moretimecapsulesmod.client.models.exteriors.shalka
  com.thevale.moretimecapsulesmod.client.models.exteriors.shalka$1
+com/thevale/moretimecapsulesmod/tileentities/OrganTile.java
+ com.thevale.moretimecapsulesmod.tileentities.OrganTile
+ com.thevale.moretimecapsulesmod.tileentities.OrganTile$1
 com/thevale/moretimecapsulesmod/client/models/interiordoors/WardrobeInteriorDoor.java
  com.thevale.moretimecapsulesmod.client.models.interiordoors.WardrobeInteriorDoor
  com.thevale.moretimecapsulesmod.client.models.interiordoors.WardrobeInteriorDoor$1
-com/thevale/moretimecapsulesmod/client/models/consoles/ValeConsoleModel.java
- com.thevale.moretimecapsulesmod.client.models.consoles.ValeConsoleModel
-com/thevale/moretimecapsulesmod/tileentities/ValeTiles.java
- com.thevale.moretimecapsulesmod.tileentities.ValeTiles
-com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java
- com.thevale.moretimecapsulesmod.registry.ValeConsoleRegistry
+com/thevale/moretimecapsulesmod/tileentities/consoles/SmithConsoleTile.java
+ com.thevale.moretimecapsulesmod.tileentities.consoles.SmithConsoleTile
 com/thevale/moretimecapsulesmod/Moretimecapsulesmod.java
  com.thevale.moretimecapsulesmod.Moretimecapsulesmod
  com.thevale.moretimecapsulesmod.Moretimecapsulesmod$RegistryEvents
+com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.java
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.OrganInnerDoors
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.OrganInnerDoors$1
+com/thevale/moretimecapsulesmod/tileentities/ShalkaTile.java
+ com.thevale.moretimecapsulesmod.tileentities.ShalkaTile
+ com.thevale.moretimecapsulesmod.tileentities.ShalkaTile$1
+com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java
+ com.thevale.moretimecapsulesmod.registry.ValeModelRegistry
+com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.java
+ com.thevale.moretimecapsulesmod.client.renders.exteriors.OrganRender
+com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java
+ com.thevale.moretimecapsulesmod.registry.ValeExteriorRegistry
+com/thevale/moretimecapsulesmod/tileentities/PtoredTile.java
+ com.thevale.moretimecapsulesmod.tileentities.PtoredTile
+ com.thevale.moretimecapsulesmod.tileentities.PtoredTile$1
+com/thevale/moretimecapsulesmod/tileentities/consoles/CoralConsoleTile.java
+ com.thevale.moretimecapsulesmod.tileentities.consoles.CoralConsoleTile
+com/thevale/moretimecapsulesmod/client/models/exteriors/WardrobeExterior.java
+ com.thevale.moretimecapsulesmod.client.models.exteriors.WardrobeExterior
+ com.thevale.moretimecapsulesmod.client.models.exteriors.WardrobeExterior$1
+com/thevale/moretimecapsulesmod/client/renders/consoles/SmithConsoleRender.java
+ com.thevale.moretimecapsulesmod.client.renders.consoles.SmithConsoleRender
+com/thevale/moretimecapsulesmod/client/models/exteriors/tt_capsule.java
+ com.thevale.moretimecapsulesmod.client.models.exteriors.tt_capsule
+ com.thevale.moretimecapsulesmod.client.models.exteriors.tt_capsule$1
+com/thevale/moretimecapsulesmod/client/guis/monitors/SmithMonitorScreen.java
+ com.thevale.moretimecapsulesmod.client.guis.monitors.SmithMonitorScreen
+com/thevale/moretimecapsulesmod/items/ValeItems.java
+ com.thevale.moretimecapsulesmod.items.ValeItems
+com/thevale/moretimecapsulesmod/client/renders/exteriors/PtoredRender.java
+ com.thevale.moretimecapsulesmod.client.renders.exteriors.PtoredRender
+com/thevale/moretimecapsulesmod/client/models/consoles/CoralConsole.java
+ com.thevale.moretimecapsulesmod.client.models.consoles.CoralConsole
+com/thevale/moretimecapsulesmod/blocks/ValeBlocks.java
+ com.thevale.moretimecapsulesmod.blocks.ValeBlocks
+com/thevale/moretimecapsulesmod/tileentities/ValeTiles.java
+ com.thevale.moretimecapsulesmod.tileentities.ValeTiles
+com/thevale/moretimecapsulesmod/client/renders/exteriors/ShalkaRender.java
+ com.thevale.moretimecapsulesmod.client.renders.exteriors.ShalkaRender
+com/thevale/moretimecapsulesmod/client/guis/monitors/CoralMonitorScreen.java
+ com.thevale.moretimecapsulesmod.client.guis.monitors.CoralMonitorScreen
+com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior.java
+ com.thevale.moretimecapsulesmod.client.models.exteriors.OrganExterior
+ com.thevale.moretimecapsulesmod.client.models.exteriors.OrganExterior$1
+com/thevale/moretimecapsulesmod/client/renders/exteriors/TTCRender.java
+ com.thevale.moretimecapsulesmod.client.renders.exteriors.TTCRender
 com/thevale/moretimecapsulesmod/client/renders/consoles/ValeConsoleRender.java
  com.thevale.moretimecapsulesmod.client.renders.consoles.ValeConsoleRender
 com/thevale/moretimecapsulesmod/tileentities/consoles/ValeConsoleTile.java
  com.thevale.moretimecapsulesmod.tileentities.consoles.ValeConsoleTile
-com/thevale/moretimecapsulesmod/texturevariants/ConsoleTextureVariants.java
- com.thevale.moretimecapsulesmod.texturevariants.ConsoleTextureVariants
+com/thevale/moretimecapsulesmod/tileentities/WardrobeTile.java
+ com.thevale.moretimecapsulesmod.tileentities.WardrobeTile
+ com.thevale.moretimecapsulesmod.tileentities.WardrobeTile$1
+com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor.java
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.Ptoredinteriordoor
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.Ptoredinteriordoor$1
+com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java
+ com.thevale.moretimecapsulesmod.registry.ValeConsoleRegistry
+com/thevale/moretimecapsulesmod/client/renders/consoles/CoralConsoleRender.java
+ com.thevale.moretimecapsulesmod.client.renders.consoles.CoralConsoleRender
+com/thevale/moretimecapsulesmod/client/models/interiordoors/TTCInteriorDoor.java
+ com.thevale.moretimecapsulesmod.client.models.interiordoors.TTCInteriorDoor
+com/thevale/moretimecapsulesmod/blocks/VConsoleBlock.java
+ com.thevale.moretimecapsulesmod.blocks.VConsoleBlock
+com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java
+ com.thevale.moretimecapsulesmod.client.renders.exteriors.WardrobeRender
+com/thevale/moretimecapsulesmod/tileentities/TTCTile.java
+ com.thevale.moretimecapsulesmod.tileentities.TTCTile
+ com.thevale.moretimecapsulesmod.tileentities.TTCTile$1

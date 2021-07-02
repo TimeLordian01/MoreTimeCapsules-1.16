@@ -4,32 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="new tt_capsule, and a lot of other shit">
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_05.41.05-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/hs_err_pid76508.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-24.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-26.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-27.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-28.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-29.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/replay_pid76508.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/serverconfig/tardis-server-4.toml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/texturevariants/ConsoleTextureVariants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/consoles/valeconsole2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/gui/exteriors/blueprint_capsule.png" afterDir="false" />
+    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="texture variants might work? ive no idea">
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-30.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/consoles/ValeConsoleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/consoles/ValeConsoleRender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/tileentities/consoles/ValeConsoleTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/tileentities/consoles/ValeConsoleTile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/util/EnumDoorTypes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/util/EnumDoorTypes$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/guis/monitors/ValeMonitorScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/consoles/ValeConsoleModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/consoles/ValeConsoleModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/consoles/ValeConsoleRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/consoles/ValeConsoleRender.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-10.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-11.log.gz" afterDir="false" />
@@ -46,6 +38,11 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-21.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-21.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-22.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-22.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-23.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-24.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-26.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-26.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-27.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-27.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-28.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-28.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-29.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-29.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-5.log.gz" afterDir="false" />
@@ -60,35 +57,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/data/capabilities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/4622de42-1ffa-4791-857f-05f4366be0de/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/moon/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/moon/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/space/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/space/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/tt_capsule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/tt_capsule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/TTCInteriorDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/TTCInteriorDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/consoles/ValeConsoleTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/consoles/ValeConsoleTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/ValeTiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/ValeTiles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +101,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -158,13 +129,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/consoles" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\java\com\thevale\moretimecapsulesmod\client\models\consoles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\sounds\tardis" />
       <recent name="C:\Users\1zaia\OneDrive\Documents\GitHub\MoreTimeCapsules-1.16\src\main\resources\assets\moretimecapsulesmod\textures\gui\exteriors" />
@@ -320,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625188918733</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="texture variants might work? ive no idea">
+      <created>1625194129881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625194129881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +321,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="broke" />
     <MESSAGE value="new tt_capsule, and a lot of other shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new tt_capsule, and a lot of other shit" />
+    <MESSAGE value="texture variants might work? ive no idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="texture variants might work? ive no idea" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

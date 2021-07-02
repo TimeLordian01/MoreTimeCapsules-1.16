@@ -7,5 +7,7 @@
   "texvar.moretimecapsulesmod.wardrobe.oak2": "Oak Panels, Spruce Log",
   "texvar.moretimecapsulesmod.wardrobe.spruce": "Spruce",
   "texvar.moretimecapsulesmod.wardrobe.warped": "Warped",
-  "texvar.moretimecapsulesmod.tardis.common.normal": "Oak"
+  "texvar.moretimecapsulesmod.tardis.common.normal": "Oak",
+  "texvar.moretimecapsulesmod.console.common.normal": "Varnished",
+  "texvar.moretimecapsulesmod.console.vale.purple": "Spacetime"
 }

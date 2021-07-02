@@ -5,6 +5,7 @@ import com.thevale.moretimecapsulesmod.blocks.ValeBlocks;
 import com.thevale.moretimecapsulesmod.client.models.interiordoors.*;
 import com.thevale.moretimecapsulesmod.client.renders.consoles.CoralConsoleRender;
 import com.thevale.moretimecapsulesmod.client.renders.consoles.SmithConsoleRender;
+import com.thevale.moretimecapsulesmod.client.renders.consoles.ValeConsoleRender;
 import com.thevale.moretimecapsulesmod.client.renders.exteriors.*;
 import com.thevale.moretimecapsulesmod.tileentities.*;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
