@@ -1,5 +1,6 @@
 package com.thevale.moretimecapsulesmod.tileentities;
 
+import com.thevale.moretimecapsulesmod.texturevariants.TextureVariants;
 import com.thevale.moretimecapsulesmod.tileentities.ValeTiles;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.tileentity.TileEntityType;
@@ -9,13 +10,11 @@ import net.tardis.mod.tileentities.exteriors.ExteriorTile;
 public class WardrobeTile extends ExteriorTile {
 
     public static final AxisAlignedBB RENDER = new AxisAlignedBB(-1, -1, -1, 2, 2, 2);
-    public WardrobeTile() { super(ValeTiles.exterior_wardrobe.get()); }
+    public WardrobeTile() {
+        super(ValeTiles.exterior_wardrobe.get());
+        this.setVariants(TextureVariants.WARDROBE);}
 
-    public WardrobeTile(TileEntityType<?> tileEntityTypeIn) {
-        super(tileEntityTypeIn);
-    }
-
-    @Override
+     @Override
     public AxisAlignedBB getDoorAABB() {
         if (world!= null && world.getBlockState(getPos()).hasProperty(BlockStateProperties.HORIZONTAL_FACING)){
             switch(world.getBlockState(this.getPos()).get(BlockStateProperties.HORIZONTAL_FACING)) {

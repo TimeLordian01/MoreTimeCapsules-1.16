@@ -3,6 +3,7 @@ package com.thevale.moretimecapsulesmod.registry;
 import com.thevale.moretimecapsulesmod.Moretimecapsulesmod;
 import com.thevale.moretimecapsulesmod.blocks.ValeBlocks;
 import com.thevale.moretimecapsulesmod.consoles.VConsoles;
+import com.thevale.moretimecapsulesmod.texturevariants.TextureVariants;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.tardis.mod.misc.Console;
