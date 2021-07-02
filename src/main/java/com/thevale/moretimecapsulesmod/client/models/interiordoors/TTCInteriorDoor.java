@@ -4,17 +4,25 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 
 import com.thevale.moretimecapsulesmod.Moretimecapsulesmod;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.vector.Vector3f;
 import net.tardis.mod.Tardis;
+import net.tardis.mod.cap.Capabilities;
 import net.tardis.mod.client.models.interiordoors.IInteriorDoorRenderer;
 import net.tardis.mod.client.renderers.exteriors.TTCapsuleExteriorRenderer;
 import net.tardis.mod.entity.DoorEntity;
 import net.tardis.mod.enums.EnumDoorState;
+import net.tardis.mod.enums.EnumMatterState;
+import net.tardis.mod.helper.WorldHelper;
 import net.tardis.mod.misc.IDoorType.EnumDoorType;
+import net.tardis.mod.client.renderers.boti.BOTIRenderer;
+import net.tardis.mod.client.renderers.boti.PortalInfo;
+import net.tardis.mod.client.renderers.DoorRenderer;
 
 // Made with Blockbench 3.7.4
 // Exported for Minecraft version 1.15
@@ -34,6 +42,7 @@ public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoo
 	private final ModelRenderer bone7;
 	private final ModelRenderer left_door_rotate_90;
 	private final ModelRenderer right_door_rotate_90;
+	private final ModelRenderer soto;
 
 	public TTCInteriorDoor() {
 		textureWidth = 128;
@@ -42,6 +51,10 @@ public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoo
 		boti = new ModelRenderer(this);
 		boti.setRotationPoint(-8.0F, 0.0F, 7.0F);
 		boti.setTextureOffset(0, 0).addBox(-1.0F, -8.0F, 0.0F, 18.0F, 32.0F, 1.0F, 0.0F, false);
+
+		soto = new ModelRenderer(this);
+		soto.setRotationPoint(-8.0F, 0.0F, 7.0F);
+		soto.setTextureOffset(0, 0).addBox(-1.0F, -8.0F, 0.0F, 18.0F, 32.0F, 1.0F, 0.0F, false);
 
 		bb_main = new ModelRenderer(this);
 		bb_main.setRotationPoint(0.0F, 24.0F, 11.5F);
@@ -118,8 +131,8 @@ public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoo
 		float rot = (float)Math.toRadians(EnumDoorType.TT_CAPSULE.getRotationForState(door.getOpenState()));
 
 		if(door.getOpenState() == EnumDoorState.ONE) {
-			this.right_door_rotate_90.rotateAngleY = -rot;
-			this.left_door_rotate_90.rotateAngleY = 0;
+			this.right_door_rotate_90.rotateAngleY = 0;
+			this.left_door_rotate_90.rotateAngleY = rot;
 		}
 		else {
 			this.left_door_rotate_90.rotateAngleY = rot;
@@ -131,7 +144,72 @@ public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoo
 
 		matrixStack.pop();
 
-	}
+		if(door.getOpenState() == EnumDoorState.ONE) {
+			if(Minecraft.getInstance().world != null){
+				Minecraft.getInstance().world.getCapability(Capabilities.TARDIS_DATA).ifPresent(data -> {
+					matrixStack.push();
+					PortalInfo info = new PortalInfo();
+					info.setPosition(door.getPositionVec());
+					info.setWorldShell(data.getBotiWorld());
+
+					info.setTranslate(matrix -> {
+						DoorRenderer.applyTranslations(matrix, door.rotationYaw - 180, door.getHorizontalFacing());
+						matrix.translate(0, 0, -1);
+					});
+					info.setTranslatePortal(matrix -> {
+						matrix.rotate(Vector3f.ZN.rotationDegrees(180));
+						matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(data.getBotiWorld().getPortalDirection())));
+						matrix.translate(0.5, -1.5, -0.5);
+					});
+
+					info.setRenderPortal((matrix, impl) -> {
+						matrix.push();
+						matrix.scale(0.95F, 1F, 1F);
+						this.soto.render(matrix, impl.getBuffer(RenderType.getEntityCutout(this.getTexture())), packedLight, packedOverlay);
+						matrix.pop();
+					});
+
+					BOTIRenderer.addPortal(info);
+					matrixStack.pop();
+				});
+			}
+
+		}
+
+		if(door.getOpenState() == EnumDoorState.BOTH) {
+			if(Minecraft.getInstance().world != null){
+				Minecraft.getInstance().world.getCapability(Capabilities.TARDIS_DATA).ifPresent(data -> {
+					matrixStack.push();
+					PortalInfo info = new PortalInfo();
+					info.setPosition(door.getPositionVec());
+					info.setWorldShell(data.getBotiWorld());
+
+					info.setTranslate(matrix -> {
+						DoorRenderer.applyTranslations(matrix, door.rotationYaw - 180, door.getHorizontalFacing());
+						matrix.translate(0, 0, -1);
+					});
+					info.setTranslatePortal(matrix -> {
+						matrix.rotate(Vector3f.ZN.rotationDegrees(180));
+						matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(data.getBotiWorld().getPortalDirection())));
+						matrix.translate(0.5, -1.5, -0.5);
+					});
+
+					info.setRenderPortal((matrix, impl) -> {
+						matrix.push();
+						matrix.scale(0.95F, 1F, 1F);
+						this.soto.render(matrix, impl.getBuffer(RenderType.getEntityCutout(this.getTexture())), packedLight, packedOverlay);
+						matrix.pop();
+					});
+
+					BOTIRenderer.addPortal(info);
+					matrixStack.pop();
+				});
+			}
+
+		}
+
+		}
+
 
 	@Override
 	public ResourceLocation getTexture() {

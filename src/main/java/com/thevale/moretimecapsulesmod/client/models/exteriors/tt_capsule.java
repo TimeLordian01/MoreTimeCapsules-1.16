@@ -5,14 +5,24 @@ package com.thevale.moretimecapsulesmod.client.models.exteriors;// Made with Blo
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
+import com.thevale.moretimecapsulesmod.client.renders.exteriors.TTCRender;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.tardis.mod.client.models.exteriors.ExteriorModel;
 import net.tardis.mod.enums.EnumDoorState;
+import net.tardis.mod.enums.EnumMatterState;
+import net.tardis.mod.helper.WorldHelper;
 import net.tardis.mod.tileentities.exteriors.ExteriorTile;
+import net.minecraft.util.math.vector.Vector3f;
+import net.tardis.mod.client.renderers.boti.BOTIRenderer;
+import net.tardis.mod.client.renderers.boti.PortalInfo;
+import net.tardis.mod.client.renderers.exteriors.ExteriorRenderer;
 
 public class tt_capsule extends ExteriorModel {
+	private static float LIGHT = 0F;
+	private static float ALPHA = 1F;
 	private final ModelRenderer base;
 	private final ModelRenderer Group1;
 	private final ModelRenderer bone5;
@@ -45,6 +55,7 @@ public class tt_capsule extends ExteriorModel {
 	private final ModelRenderer cube_r4;
 	private final ModelRenderer cube_r5;
 	private final ModelRenderer boti;
+	private final ModelRenderer backing;
 	private final ModelRenderer cube_r6;
 
 	public tt_capsule() {
@@ -262,6 +273,9 @@ public class tt_capsule extends ExteriorModel {
 
 		boti = new ModelRenderer(this);
 		boti.setRotationPoint(0.0F, 24.0F, 0.0F);
+
+		backing = new ModelRenderer(this);
+		backing.setRotationPoint(0.0F, 24.0F, 0.0F);
 		
 
 		cube_r6 = new ModelRenderer(this);
@@ -272,11 +286,26 @@ public class tt_capsule extends ExteriorModel {
 	}
 
 	@Override
-	public void render(ExteriorTile tile, float v, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float v1) {
+	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){}
+
+	@Override
+	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha){
+		base.render(matrixStack, buffer, packedLight, packedOverlay);
+		door.render(matrixStack, buffer, packedLight, packedOverlay);
+		//boti.render(matrixStack, buffer, packedLight, packedOverlay);
+		//backing.render(matrixStack, buffer, packedLight, packedOverlay);
+		this.backing.showModel = false;
+	}
+
+	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
+		modelRenderer.rotateAngleX = x;
+		modelRenderer.rotateAngleY = y;
+		modelRenderer.rotateAngleZ = z;
+	}
+
+	@Override
+	public void render(ExteriorTile tile, float scale, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float alpha) {
 		EnumDoorState state = tile.getOpen();
-		matrixStack.push();
-		matrixStack.translate(0.0D, 0.2, 0.0D);
-		matrixStack.scale(1F, 0.85F, 1F);
 		switch(state) {
 			case ONE:
 				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.ONE));
@@ -286,25 +315,76 @@ public class tt_capsule extends ExteriorModel {
 				break;
 			case CLOSED:
 				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.CLOSED));
+				break;
+			default:
+				break;
 		}
-		this.base.render(matrixStack, buffer, packedLight, packedOverlay);
-		this.door.render(matrixStack, buffer, packedLight, packedOverlay);
-		this.boti.render(matrixStack, buffer, packedLight, packedOverlay);
-		matrixStack.pop();
-	}
+		base.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
+		door.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
+		boti.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
+		//backing.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
 
-	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
-		//previously the render function, render code was moved to a method below
-	}
+		LIGHT = tile.lightLevel;
 
-	@Override
-	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha){
-	}
+		if (tile.getMatterState() != EnumMatterState.SOLID)
+			ALPHA = tile.alpha;
+		else ALPHA = 1F;
 
-	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
-		modelRenderer.rotateAngleX = x;
-		modelRenderer.rotateAngleY = y;
-		modelRenderer.rotateAngleZ = z;
+		if(tile.getNextDoorState() == EnumDoorState.BOTH) {
+			if(tile.getBotiWorld() != null) {
+				PortalInfo info = new PortalInfo();
+				info.setPosition(tile.getPos());
+				info.setWorldShell(tile.getBotiWorld());
+				info.setTranslate(matrix -> {
+					matrix.translate(-0.45, 1, 0.45);
+					matrix.rotate(Vector3f.XP.rotationDegrees(0));
+					matrix.rotate(Vector3f.YP.rotationDegrees(180));
+					ExteriorRenderer.applyTransforms(matrix, tile);
+				});
+				info.setTranslatePortal(matrix -> {
+					matrix.translate(-0.5, 1.5, -0.5);
+					matrix.rotate(Vector3f.XP.rotationDegrees(180));
+					matrix.rotate(Vector3f.YP.rotationDegrees(0));
+					matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(tile.getBotiWorld().getPortalDirection())));
+				});
+
+				info.setRenderPortal((matrix, buf) -> {
+					matrix.push();
+					matrix.scale(0.8F, 1F, 1F);
+					this.boti.render(matrix, buf.getBuffer(RenderType.getEntityCutout(TTCRender.TEXTURE)), packedLight, packedOverlay);
+					matrix.pop();
+				});
+
+				BOTIRenderer.addPortal(info);
+			}
+		}
+		if(tile.getNextDoorState() == EnumDoorState.CLOSED) {
+			if(tile.getBotiWorld() != null) {
+				PortalInfo info = new PortalInfo();
+				info.setPosition(tile.getPos());
+				info.setWorldShell(tile.getBotiWorld());
+				info.setTranslate(matrix -> {
+					matrix.translate(-0.45, 1, 0.45);
+					matrix.rotate(Vector3f.XP.rotationDegrees(0));
+					matrix.rotate(Vector3f.YP.rotationDegrees(180));
+					ExteriorRenderer.applyTransforms(matrix, tile);
+				});
+				info.setTranslatePortal(matrix -> {
+					matrix.translate(0.5, 1.5, -0.5);
+					matrix.rotate(Vector3f.XP.rotationDegrees(180));
+					matrix.rotate(Vector3f.YP.rotationDegrees(0));
+					matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(tile.getBotiWorld().getPortalDirection())));
+				});
+
+				info.setRenderPortal((matrix, buf) -> {
+					matrix.push();
+					matrix.scale(0.8F, 1F, 1F);
+					this.boti.render(matrix, buf.getBuffer(RenderType.getEntityCutout(TTCRender.TEXTURE)), packedLight, packedOverlay);
+					matrix.pop();
+				});
+
+				BOTIRenderer.addPortal(info);
+			}
+		}
 	}
 }
