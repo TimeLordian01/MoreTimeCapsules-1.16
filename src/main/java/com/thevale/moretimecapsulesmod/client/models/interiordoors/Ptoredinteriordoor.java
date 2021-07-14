@@ -5,9 +5,8 @@ package com.thevale.moretimecapsulesmod.client.models.interiordoors;// Made with
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
-import com.thevale.moretimecapsulesmod.client.renders.exteriors.PtoredRender;
+import com.thevale.moretimecapsulesmod.Moretimecapsulesmod;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
@@ -15,16 +14,20 @@ import net.minecraft.util.ResourceLocation;
 import net.tardis.mod.client.models.interiordoors.IInteriorDoorRenderer;
 import net.tardis.mod.entity.DoorEntity;
 import net.tardis.mod.enums.EnumDoorState;
-import net.tardis.mod.helper.TardisHelper;
-import net.tardis.mod.misc.TexVariant;
-import net.tardis.mod.tileentities.ConsoleTile;
+import net.tardis.mod.misc.IDoorType.EnumDoorType;
+import net.tardis.mod.client.renderers.boti.BOTIRenderer;
+import net.tardis.mod.client.renderers.boti.PortalInfo;
+import net.tardis.mod.client.renderers.DoorRenderer;
 
 public class Ptoredinteriordoor extends EntityModel<Entity> implements IInteriorDoorRenderer {
+	public static final ResourceLocation TEXTURE = new ResourceLocation(Moretimecapsulesmod.MODID, "textures/interiordoor/ptoredinterior.png");
 	private final ModelRenderer Chassis;
 	private final ModelRenderer DoorR;
 	private final ModelRenderer cube_r1;
 	private final ModelRenderer DoorL;
 	private final ModelRenderer cube_r2;
+	private final ModelRenderer boti;
+	private final ModelRenderer soto;
 
 	public Ptoredinteriordoor() {
 		textureWidth = 256;
@@ -54,6 +57,14 @@ public class Ptoredinteriordoor extends EntityModel<Entity> implements IInterior
 		Chassis.addChild(DoorL);
 		DoorL.setTextureOffset(4, 4).addBox(1.0F, -33.0F, 2.0F, 1.0F, 3.0F, 1.0F, 0.0F, false);
 
+		boti = new ModelRenderer(this);
+		boti.setRotationPoint(14.1875F, 32.7188F, -13.0938F);
+		boti.setTextureOffset(32, 32).addBox(1.0F, -33.0F, 2.0F, 1.0F, 34.0F, 1.0F, 0.0F, false);
+
+		soto = new ModelRenderer(this);
+		soto.setRotationPoint(14.1875F, 32.7188F, -13.0938F);
+		soto.setTextureOffset(32, 32).addBox(1.0F, -33.0F, 2.0F, 1.0F, 34.0F, 1.0F, 0.0F, false);
+
 		cube_r2 = new ModelRenderer(this);
 		cube_r2.setRotationPoint(0.0F, 0.0F, 0.0F);
 		DoorL.addChild(cube_r2);
@@ -62,7 +73,7 @@ public class Ptoredinteriordoor extends EntityModel<Entity> implements IInterior
 	}
 
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
+	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		//previously the render function, render code was moved to a method below
 	}
 
@@ -97,16 +108,7 @@ public class Ptoredinteriordoor extends EntityModel<Entity> implements IInterior
 
 	@Override
 	public ResourceLocation getTexture() {
-		ConsoleTile tile = TardisHelper.getConsoleInWorld(Minecraft.getInstance().world).orElse(null);
-		if (tile != null) {
-			int index = tile.getExteriorManager().getExteriorVariant();
-			TexVariant[] vars = tile.getTextureVariants();
-			if (vars != null && index < vars.length) {
-				return vars[index].getTexture();
-			}
-		}
-
-		return PtoredRender.TEXTURE;
+		return TEXTURE;
 	}
 
 	@Override

@@ -159,7 +159,7 @@ public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoo
 					info.setTranslatePortal(matrix -> {
 						matrix.rotate(Vector3f.ZN.rotationDegrees(180));
 						matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(data.getBotiWorld().getPortalDirection())));
-						matrix.translate(0.5, -1.5, -0.5);
+						matrix.translate(-0.5, -1.5, 0.5);
 					});
 
 					info.setRenderPortal((matrix, impl) -> {
@@ -186,12 +186,12 @@ public class TTCInteriorDoor extends EntityModel<Entity> implements IInteriorDoo
 
 					info.setTranslate(matrix -> {
 						DoorRenderer.applyTranslations(matrix, door.rotationYaw - 180, door.getHorizontalFacing());
-						matrix.translate(0, 0, -1);
+						matrix.translate(0, 0, -1.05);
 					});
 					info.setTranslatePortal(matrix -> {
 						matrix.rotate(Vector3f.ZN.rotationDegrees(180));
 						matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(data.getBotiWorld().getPortalDirection())));
-						matrix.translate(0.5, -1.5, -0.5);
+						matrix.translate(-0.5, -1.5, 0.5);
 					});
 
 					info.setRenderPortal((matrix, impl) -> {

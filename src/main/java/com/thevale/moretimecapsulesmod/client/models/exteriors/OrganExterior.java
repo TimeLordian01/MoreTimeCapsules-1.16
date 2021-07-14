@@ -12,6 +12,7 @@ import net.minecraft.util.math.vector.Vector3f;
 import net.tardis.mod.client.models.exteriors.ExteriorModel;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.tileentities.exteriors.ExteriorTile;
+import net.minecraft.client.renderer.RenderType;
 
 public class OrganExterior extends ExteriorModel {
 	private final ModelRenderer bb_main;

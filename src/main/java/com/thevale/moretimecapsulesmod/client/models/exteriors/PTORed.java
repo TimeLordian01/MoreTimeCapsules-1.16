@@ -9,6 +9,7 @@ import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
 import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.entity.Entity;
 import net.tardis.mod.client.models.exteriors.ExteriorModel;
+import net.minecraft.client.renderer.RenderType;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.tileentities.exteriors.ExteriorTile;
 
@@ -96,6 +97,7 @@ public class PTORed extends ExteriorModel {
 				this.DoorL.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.PTORED.getRotationForState(EnumDoorState.CLOSED));
 		}
 		Chassis.render(matrixStack, buffer, packedLight, packedOverlay);
+		matrixStack.pop();
 	}
 
 	@Override

@@ -11,6 +11,7 @@ import net.minecraft.entity.Entity;
 import net.tardis.mod.client.models.exteriors.ExteriorModel;
 import net.tardis.mod.enums.EnumDoorState;
 import net.tardis.mod.tileentities.exteriors.ExteriorTile;
+import net.minecraft.client.renderer.RenderType;
 
 public class shalka extends ExteriorModel {
 	private final ModelRenderer Shell;

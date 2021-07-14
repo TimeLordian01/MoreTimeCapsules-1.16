@@ -1,3 +1,4 @@
+
 package com.thevale.moretimecapsulesmod.client.models.exteriors;// Made with Blockbench 3.7.5
 // Exported for Minecraft version 1.15
 // Paste this class into your mod and generate all required imports
@@ -55,8 +56,8 @@ public class tt_capsule extends ExteriorModel {
 	private final ModelRenderer cube_r4;
 	private final ModelRenderer cube_r5;
 	private final ModelRenderer boti;
-	private final ModelRenderer backing;
 	private final ModelRenderer cube_r6;
+	private final ModelRenderer backing;
 
 	public tt_capsule() {
 		textureWidth = 256;
@@ -64,12 +65,12 @@ public class tt_capsule extends ExteriorModel {
 
 		base = new ModelRenderer(this);
 		base.setRotationPoint(0.0F, 24.0F, 0.0F);
-		
+
 
 		Group1 = new ModelRenderer(this);
 		Group1.setRotationPoint(0.0F, 0.0F, 0.0F);
 		base.addChild(Group1);
-		
+
 
 		bone5 = new ModelRenderer(this);
 		bone5.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -110,13 +111,13 @@ public class tt_capsule extends ExteriorModel {
 		Group2.setRotationPoint(0.0F, 0.0F, 0.0F);
 		base.addChild(Group2);
 		setRotationAngle(Group2, 0.0F, -1.5708F, 0.0F);
-		
+
 
 		bone6 = new ModelRenderer(this);
 		bone6.setRotationPoint(0.0F, 0.0F, 0.0F);
 		Group2.addChild(bone6);
 		setRotationAngle(bone6, 0.0F, -1.5708F, 0.0F);
-		
+
 
 		bone7 = new ModelRenderer(this);
 		bone7.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -153,7 +154,7 @@ public class tt_capsule extends ExteriorModel {
 		Group3.setRotationPoint(0.0F, 0.0F, 0.0F);
 		base.addChild(Group3);
 		setRotationAngle(Group3, 0.0F, 3.1416F, 0.0F);
-		
+
 
 		bone11 = new ModelRenderer(this);
 		bone11.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -197,7 +198,7 @@ public class tt_capsule extends ExteriorModel {
 		Group4.setRotationPoint(0.0F, 0.0F, 0.0F);
 		base.addChild(Group4);
 		setRotationAngle(Group4, 0.0F, 1.5708F, 0.0F);
-		
+
 
 		bone16 = new ModelRenderer(this);
 		bone16.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -238,8 +239,7 @@ public class tt_capsule extends ExteriorModel {
 
 		door = new ModelRenderer(this);
 		door.setRotationPoint(0.0F, 24.0F, 0.0F);
-		setRotationAngle(door, 0.0F, 0.0F, 0.0F);
-		
+
 
 		cube_r1 = new ModelRenderer(this);
 		cube_r1.setRotationPoint(0.0F, 0.0F, 0.0F);
@@ -272,24 +272,28 @@ public class tt_capsule extends ExteriorModel {
 		cube_r5.setTextureOffset(163, 127).addBox(-2.475F, -41.95F, 10.425F, 2.0F, 41.0F, 1.0F, 0.0F, false);
 
 		boti = new ModelRenderer(this);
-		boti.setRotationPoint(0.0F, 24.0F, 0.0F);
+		boti.setRotationPoint(0.0F, 24.0F, -15.0F);
+		setRotationAngle(boti, -3.1416F, 0.0F, 3.1416F);
 
-		backing = new ModelRenderer(this);
-		backing.setRotationPoint(0.0F, 24.0F, 0.0F);
-		
 
 		cube_r6 = new ModelRenderer(this);
 		cube_r6.setRotationPoint(0.0F, 0.0F, 0.0F);
 		boti.addChild(cube_r6);
 		setRotationAngle(cube_r6, -3.1416F, 0.0F, 3.1416F);
 		cube_r6.setTextureOffset(0, 121).addBox(-8.5F, -43.0F, 7.5F, 17.0F, 42.0F, 0.0F, 0.0F, false);
+
+		backing = new ModelRenderer(this);
+		backing.setRotationPoint(0.0F, 24.0F, 0.0F);
+
+	}
+
+
+	@Override
+	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 	}
 
 	@Override
-	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){}
-
-	@Override
-	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha){
+	public void render(MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		base.render(matrixStack, buffer, packedLight, packedOverlay);
 		door.render(matrixStack, buffer, packedLight, packedOverlay);
 		//boti.render(matrixStack, buffer, packedLight, packedOverlay);
@@ -306,22 +310,22 @@ public class tt_capsule extends ExteriorModel {
 	@Override
 	public void render(ExteriorTile tile, float scale, MatrixStack matrixStack, IVertexBuilder buffer, int packedLight, int packedOverlay, float alpha) {
 		EnumDoorState state = tile.getOpen();
-		switch(state) {
+		switch (state) {
 			case ONE:
-				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.ONE));
+				this.door.rotateAngleY = (float) Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.ONE));
 				break;
 			case BOTH:
-				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.BOTH));
+				this.door.rotateAngleY = (float) Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.BOTH));
 				break;
 			case CLOSED:
-				this.door.rotateAngleY = (float)Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.CLOSED));
+				this.door.rotateAngleY = (float) Math.toRadians(EnumDoorTypes.TT_CAPSULE.getRotationForState(EnumDoorState.CLOSED));
 				break;
 			default:
 				break;
 		}
-		base.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
-		door.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
-		boti.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
+		base.render(matrixStack, buffer, packedLight, packedOverlay, 1, 1, 1, alpha);
+		door.render(matrixStack, buffer, packedLight, packedOverlay, 1, 1, 1, alpha);
+		//boti.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
 		//backing.render(matrixStack, buffer, packedLight, packedOverlay,1,1,1, alpha);
 
 		LIGHT = tile.lightLevel;
@@ -330,27 +334,26 @@ public class tt_capsule extends ExteriorModel {
 			ALPHA = tile.alpha;
 		else ALPHA = 1F;
 
-		if(tile.getNextDoorState() == EnumDoorState.BOTH) {
-			if(tile.getBotiWorld() != null) {
+		if (tile.getNextDoorState() == EnumDoorState.BOTH) {
+			if (tile.getBotiWorld() != null) {
+
 				PortalInfo info = new PortalInfo();
 				info.setPosition(tile.getPos());
 				info.setWorldShell(tile.getBotiWorld());
 				info.setTranslate(matrix -> {
-					matrix.translate(-0.45, 1, 0.45);
-					matrix.rotate(Vector3f.XP.rotationDegrees(0));
-					matrix.rotate(Vector3f.YP.rotationDegrees(180));
+					matrix.translate(-0.5, 1, -0.5);
 					ExteriorRenderer.applyTransforms(matrix, tile);
 				});
 				info.setTranslatePortal(matrix -> {
-					matrix.translate(-0.5, 1.5, -0.5);
-					matrix.rotate(Vector3f.XP.rotationDegrees(180));
-					matrix.rotate(Vector3f.YP.rotationDegrees(0));
+					matrix.rotate(Vector3f.ZN.rotationDegrees(180));
 					matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(tile.getBotiWorld().getPortalDirection())));
+					matrix.translate(-0.5, -1.45, 0.45);
+
 				});
 
 				info.setRenderPortal((matrix, buf) -> {
 					matrix.push();
-					matrix.scale(0.8F, 1F, 1F);
+					matrix.scale(1F, 1F, 1F);
 					this.boti.render(matrix, buf.getBuffer(RenderType.getEntityCutout(TTCRender.TEXTURE)), packedLight, packedOverlay);
 					matrix.pop();
 				});
@@ -358,27 +361,27 @@ public class tt_capsule extends ExteriorModel {
 				BOTIRenderer.addPortal(info);
 			}
 		}
-		if(tile.getNextDoorState() == EnumDoorState.CLOSED) {
-			if(tile.getBotiWorld() != null) {
+
+		if (tile.getNextDoorState() == EnumDoorState.CLOSED) {
+			if (tile.getBotiWorld() != null) {
+
 				PortalInfo info = new PortalInfo();
 				info.setPosition(tile.getPos());
 				info.setWorldShell(tile.getBotiWorld());
 				info.setTranslate(matrix -> {
-					matrix.translate(-0.45, 1, 0.45);
-					matrix.rotate(Vector3f.XP.rotationDegrees(0));
-					matrix.rotate(Vector3f.YP.rotationDegrees(180));
+					matrix.translate(-0.5, 1, -0.5);
 					ExteriorRenderer.applyTransforms(matrix, tile);
 				});
 				info.setTranslatePortal(matrix -> {
-					matrix.translate(0.5, 1.5, -0.5);
-					matrix.rotate(Vector3f.XP.rotationDegrees(180));
-					matrix.rotate(Vector3f.YP.rotationDegrees(0));
+					matrix.rotate(Vector3f.ZN.rotationDegrees(180));
 					matrix.rotate(Vector3f.YP.rotationDegrees(WorldHelper.getAngleFromFacing(tile.getBotiWorld().getPortalDirection())));
+					matrix.translate(-0.5, -1.45, 0.45);
+
 				});
 
 				info.setRenderPortal((matrix, buf) -> {
 					matrix.push();
-					matrix.scale(0.8F, 1F, 1F);
+					matrix.scale(1F, 1F, 1F);
 					this.boti.render(matrix, buf.getBuffer(RenderType.getEntityCutout(TTCRender.TEXTURE)), packedLight, packedOverlay);
 					matrix.pop();
 				});

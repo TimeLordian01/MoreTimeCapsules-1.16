@@ -7,6 +7,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.moretimecapsulesmod.client.renders.exteriors.OrganRender;
+import com.thevale.moretimecapsulesmod.client.renders.exteriors.PtoredRender;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.model.EntityModel;
@@ -75,15 +76,15 @@ public class OrganInnerDoors extends EntityModel<Entity> implements IInteriorDoo
         matrixStack.pop();
     }
 
+    @Override
     public ResourceLocation getTexture() {
         ConsoleTile tile = TardisHelper.getConsoleInWorld(Minecraft.getInstance().world).orElse(null);
         if (tile != null) {
             int index = tile.getExteriorManager().getExteriorVariant();
-            TexVariant[] vars = tile.getTextureVariants();
-            if (vars != null && index < vars.length) {
-                return vars[index].getTexture();
-            }
+            if (tile.getExteriorType().getVariants() != null && index < tile.getExteriorType().getVariants().length)
+                return tile.getExteriorType().getVariants()[index].getTexture();
         }
+
 
         return OrganRender.TEXTURE;
     }

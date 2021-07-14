@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -62,7 +62,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 syncChunkWrites:true
@@ -112,7 +112,7 @@ key_key.jei.previousPage:key.keyboard.page.up
 key_key.jei.nextPage:key.keyboard.page.down
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
-soundCategory_master:0.0910596
+soundCategory_master:0.19536424
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
