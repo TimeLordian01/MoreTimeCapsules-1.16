@@ -6,7 +6,6 @@ package com.thevale.moretimecapsulesmod.client.models.interiordoors;// Made with
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.moretimecapsulesmod.client.renders.exteriors.FiveRender;
-import com.thevale.moretimecapsulesmod.client.renders.exteriors.PtoredRender;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.model.EntityModel;
@@ -244,17 +243,16 @@ public class FiveInteriorDoor extends EntityModel<Entity> implements IInteriorDo
 		matrixStack.pop();
 	}
 
-	@Override
 	public ResourceLocation getTexture() {
 		ConsoleTile tile = TardisHelper.getConsoleInWorld(Minecraft.getInstance().world).orElse(null);
 		if (tile != null) {
 			int index = tile.getExteriorManager().getExteriorVariant();
-			if (tile.getExteriorType().getVariants() != null && index < tile.getExteriorType().getVariants().length)
-				return tile.getExteriorType().getVariants()[index].getTexture();
+			TexVariant[] vars = tile.getTextureVariants();
+			if (vars != null && index < vars.length) {
+				return vars[index].getTexture();
+			}
 		}
-
 
 		return FiveRender.TEXTURE;
 	}
-
-	}
+}

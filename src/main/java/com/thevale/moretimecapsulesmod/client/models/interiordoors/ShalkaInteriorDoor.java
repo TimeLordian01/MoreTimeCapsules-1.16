@@ -7,6 +7,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.thevale.moretimecapsulesmod.client.renders.exteriors.PtoredRender;
 import com.thevale.moretimecapsulesmod.client.renders.exteriors.ShalkaRender;
+import com.thevale.moretimecapsulesmod.client.renders.exteriors.WardrobeRender;
 import com.thevale.moretimecapsulesmod.util.EnumDoorTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.model.EntityModel;

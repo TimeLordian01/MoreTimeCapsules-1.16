@@ -4,59 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="texture variance for the consoles figured out, boti added to tt_capsule and the door, and various minor fixes here and there.">
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_20.08.58-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_20.15.11-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_20.16.26-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_20.22.00-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-03_22.17.34-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-03_22.21.14-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/hs_err_pid35576.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/hs_err_pid40872.log" afterDir="false" />
+    <list default="true" id="9388ab58-dde3-43ae-ba4e-b9dd9a3d9337" name="Default Changelist" comment="Texture Variants and Console Fixes">
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_18.27.54-client.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-50.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-51.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-52.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-53.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-54.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-55.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-02-56.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-10.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-11.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-12.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-14.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-15.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-8.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-03-9.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-04-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-04-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-04-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-07-11-2.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-14-1.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-14-2.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-14-3.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-14-4.log.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/logs/2021-07-14-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-17.-17.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-17.-18.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-18.-17.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-18.-18.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-17.-17.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-17.-18.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-18.-17.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-18.-18.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-03_16.58.02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-03_19.38.55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-03_22.00.45.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-03_22.00.50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-04_15.43.50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-04_16.12.37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/screenshots/2021-07-04_16.12.59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/data/chunks.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/poi/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/poi/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/poi/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/moon/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/space/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/vortex/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World (1)/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/consoles/NewCoralConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/StreetsideExterior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/StreetsideInteriorDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/consoles/NewCoralConsoleRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/StreetsideRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/StreetsideTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/consoles/NewCoralConsoleTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/blockstates/console_newcoralconsole.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/consoles/newcoralconsole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/exteriors/streetside.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9/fileHashes/fileHashes.bin" afterDir="false" />
@@ -68,64 +67,72 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/blocks/ValeBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/blocks/ValeBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/FiveExterior.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/FiveExterior.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/shalka$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/shalka$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/shalka.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/exteriors/shalka.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/FiveRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/FiveRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/PtoredRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/PtoredRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/ShalkaRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/ShalkaRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/moretimecapsulesmod/textures/consoles/valeconsole.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/moretimecapsulesmod/textures/consoles/valeconsole.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/tileentities/ValeTiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/tileentities/ValeTiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/audit/mixin_implementation_report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/jei/bookmarks.ini" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/jei/bookmarks.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_00.10.24-fml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_00.19.00-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_18.15.35-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_02.10.58-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_18.18.12-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_02.58.11-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-14_01.41.00-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2021-07-02_05.41.05-client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid22756.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid48140.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid48460.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid53740.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid54420.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid61020.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid66964.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid67220.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid67772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid68396.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/hs_err_pid76508.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-11.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-12.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-13.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-14.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-14.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-15.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-15.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-16.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-16.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-17.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-17.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-18.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-18.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-19.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-19.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-20.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-20.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-21.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-21.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-22.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-22.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-23.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-24.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-26.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-26.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-27.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-27.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-28.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-28.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-29.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-29.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-10.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-11.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-12.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-13.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-14.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-15.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-16.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-17.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-18.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-19.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-20.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-21.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-22.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-23.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-24.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-26.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-27.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-28.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-29.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-30.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-30.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-31.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-31.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-32.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-32.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-33.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-33.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-34.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-34.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-35.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-35.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-30.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-31.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-32.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-37.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-33.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-34.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-35.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-36.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-36.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-38.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-38.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-39.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-39.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-40.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-40.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-41.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-41.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-42.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-42.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-42.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-43.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-43.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-44.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-44.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-45.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-45.log.gz" afterDir="false" />
@@ -134,64 +141,70 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-48.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-48.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-49.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-49.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-07-02-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-8.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2021-07-02-9.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/data/capabilities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/646a17d9-31f8-4b2c-8181-1b73e004adba/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/moon/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/moon/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/space/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/space/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid22756.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid48140.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid48460.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid53740.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid54420.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid61020.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid66964.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid67220.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid67772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/replay_pid76508.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/DIM1/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/tardis.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/data/tardis.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/moon/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/moon/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/moon/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/space/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/space/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/space/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/data/capabilities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/vortex/data/capabilities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/dimensions/tardis/vortex/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/dimensions/tardis/d8d143b9-d60e-4782-9810-4ec323668583/poi/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/poi/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/tardis-server-1.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/serverconfig/tardis-server-1.toml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/tardis-server-2.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/serverconfig/tardis-server-2.toml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/tardis-server-3.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/serverconfig/tardis-server-3.toml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/tardis-server-4.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World (1)/serverconfig/tardis-server-4.toml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/tardis-server-5.toml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/blocks/ValeBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/blocks/ValeBlocks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/FiveExterior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/FiveExterior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/OrganExterior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/PTORed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/shalka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/shalka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/tt_capsule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/exteriors/tt_capsule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/FiveInteriorDoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/OrganInnerDoors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/Ptoredinteriordoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/ShalkaInteriorDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/TTCInteriorDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/interiordoors/TTCInteriorDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/FiveRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/FiveRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/OrganRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/PtoredRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/PtoredRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/ShalkaRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/ShalkaRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/TTCRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/TTCRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/renders/exteriors/WardrobeRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/consoles/valeconsole.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/consoles/valeconsole.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/consoles/valeconsole2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/moretimecapsulesmod/textures/consoles/valeconsole2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeConsoleRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeExteriorRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/registry/ValeModelRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/ValeTiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/tileentities/ValeTiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/util/EnumDoorTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +230,23 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MoreTimeCapsules-1.16" type="f1a62948:ProjectNode" />
+                <item name="MoreTimeCapsulesMod-1.16" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoreTimeCapsulesMod-1.16" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoreTimeCapsulesMod-1.16" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="fg_runs" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MoreTimeCapsulesMod-1.16" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -262,7 +291,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/MCreatorWorkspaces/tmod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/thevale/moretimecapsulesmod/client/models/consoles" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -441,14 +470,7 @@
       <option name="project" value="LOCAL" />
       <updated>1625194807722</updated>
     </task>
-    <task id="LOCAL-00008" summary="texture variance for the consoles figured out, boti added to tt_capsule and the door, and various minor fixes here and there.">
-      <created>1625244997790</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1625244997790</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,8 +492,7 @@
     <MESSAGE value="new tt_capsule, and a lot of other shit" />
     <MESSAGE value="texture variants might work? ive no idea" />
     <MESSAGE value="odd stuff happened idk" />
-    <MESSAGE value="texture variance for the consoles figured out, boti added to tt_capsule and the door, and various minor fixes here and there." />
-    <option name="LAST_COMMIT_MESSAGE" value="texture variance for the consoles figured out, boti added to tt_capsule and the door, and various minor fixes here and there." />
+    <option name="LAST_COMMIT_MESSAGE" value="odd stuff happened idk" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

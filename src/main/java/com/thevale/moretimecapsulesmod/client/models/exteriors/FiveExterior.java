@@ -436,12 +436,11 @@ public class FiveExterior extends ExteriorModel {
 		boti.render(matrixStack, buffer, packedLight, packedOverlay);
 		LeftWindow.render(matrixStack, buffer, packedLight, packedOverlay);
 		RightWindow.render(matrixStack, buffer, packedLight, packedOverlay);
-		//ModelHelper.render(matrixStack, buffer, packedLight, packedOverlay, tile.getLightLevel(), this.RightWindow);
-		//ModelHelper.render(matrixStack, buffer, packedLight, packedOverlay, tile.getLightLevel(), this.LeftWindow);
-		//ModelHelper.render(matrixStack, buffer, packedLight, packedOverlay, tile.getLightLevel(), this.Lamp);
-		//ModelHelper.render(matrixStack, buffer, packedLight, packedOverlay, tile.getLightLevel(), this.CallSignsLight);
-		//ModelHelper.render(matrixStack, buffer, packedLight, packedOverlay, tile.getLightLevel(), this.ShellWindows);
+
+
 		matrixStack.pop();
+
+
 	}
 
 	@Override

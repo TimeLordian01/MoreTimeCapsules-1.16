@@ -66,7 +66,7 @@ SHALKA(state -> {
                 default:return 0.0;
             }
         }, EnumDoorState.CLOSED, EnumDoorState.ONE, EnumDoorState.BOTH),
-    PORTAL(state -> {
+    STREETSIDE(state -> {
             switch(state) {
             case CLOSED: return 0.0D;
                 case ONE: return 90.0D;

@@ -25,11 +25,14 @@ public class ValeBlocks {
     public static RegistryObject<Block> exterior_organ = register("exterior_organ", () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_canon05 = register("exterior_canon05", () -> setUpBlock(new ExteriorBlock()), false);
     public static RegistryObject<Block> exterior_tt_capsule = register("exterior_tt_capsule", () -> setUpBlock(new ExteriorBlock()), false);
+    public static RegistryObject<Block> exterior_streetside = register("exterior_streetside", () -> setUpBlock(new ExteriorBlock()), false);
 
     //Consoles
     public static RegistryObject<Block> console_vale = register("console_vale", () -> setUpBlock(new VConsoleBlock()), false);
     public static RegistryObject<Block> console_coral2 = register("console_coral2", () -> setUpBlock(new VConsoleBlock()), false);
     public static RegistryObject<Block> console_smith = register("console_smith", () -> setUpBlock(new VConsoleBlock()), false);
+    public static RegistryObject<Block> console_newcoral = register("console_newcoral", () -> setUpBlock(new VConsoleBlock()), false);
+
 
     private static Block setUpBlock(Block block) {
         return block;

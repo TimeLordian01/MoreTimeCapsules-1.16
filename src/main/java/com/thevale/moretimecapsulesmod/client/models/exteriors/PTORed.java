@@ -100,6 +100,7 @@ public class PTORed extends ExteriorModel {
 		matrixStack.pop();
 	}
 
+
 	@Override
 	public void setRotationAngles(Entity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch){
 		//previously the render function, render code was moved to a method below

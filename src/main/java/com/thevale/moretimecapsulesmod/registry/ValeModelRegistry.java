@@ -4,6 +4,7 @@ import com.thevale.moretimecapsulesmod.Moretimecapsulesmod;
 import com.thevale.moretimecapsulesmod.blocks.ValeBlocks;
 import com.thevale.moretimecapsulesmod.client.models.interiordoors.*;
 import com.thevale.moretimecapsulesmod.client.renders.consoles.CoralConsoleRender;
+import com.thevale.moretimecapsulesmod.client.renders.consoles.NewCoralConsoleRender;
 import com.thevale.moretimecapsulesmod.client.renders.consoles.SmithConsoleRender;
 import com.thevale.moretimecapsulesmod.client.renders.consoles.ValeConsoleRender;
 import com.thevale.moretimecapsulesmod.client.renders.exteriors.*;
@@ -46,10 +47,13 @@ public class ValeModelRegistry {
         EnumDoorTypes.CANON05.setInteriorDoorModel(new FiveInteriorDoor());
         ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_tt_capsule.get(), TTCRender::new);
         EnumDoorTypes.TT_CAPSULE.setInteriorDoorModel(new TTCInteriorDoor());
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.exterior_streetside.get(), StreetsideRender::new);
+        EnumDoorTypes.STREETSIDE.setInteriorDoorModel(new StreetsideInteriorDoor());
         //Consoles
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_vale.get(), ValeConsoleRender::new);
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_coral2.get(), CoralConsoleRender::new);
         ClientRegistry.bindTileEntityRenderer(ValeTiles.console_smith.get(), SmithConsoleRender::new);
+        ClientRegistry.bindTileEntityRenderer(ValeTiles.console_newcoral.get(), NewCoralConsoleRender::new);
     }
 
 }
